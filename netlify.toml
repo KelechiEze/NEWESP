@@ -1,6 +1,0 @@
-[plugins]
-package = "@netlify/plugin-nextjs"
-
-[functions]
-# Disable forms support to avoid conflicts
-included_files = ["!netlify/forms"]
