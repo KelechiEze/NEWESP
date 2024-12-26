@@ -127,7 +127,7 @@ const Home: NextPage = () => {
                 </div>
 
                 {/* Form */}
-                <form className="py-4 space-y-4" onSubmit={handleSubmit}>
+                <form className="py-4 space-y-4" onSubmit={handleSubmit} method="POST" data-netlify="true">
                     {/* Parent/Guardian Details */}
                     <h2 className="text-xl font-semibold text-center">Parent/Guardian Information</h2>
                     <div style={{ justifyItems: 'center' }}>
