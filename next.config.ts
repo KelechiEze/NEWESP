@@ -1,7 +1,8 @@
-import type { NextConfig } from "next";
+import { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Remove unsupported experimental options
+  output: 'standalone', // Use standalone mode for Netlify compatibility
 };
 
 export default nextConfig;
